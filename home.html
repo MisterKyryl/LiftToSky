@@ -1,0 +1,2375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>LiftToSky</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241231125735">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body">
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__items">
+						<div class="top-header__item">
+							<span class="top-header__name">BTC:</span>
+							<span class="top-header__price">$10100</span>
+							<span class="top-header__percentage-red">(-0.12%)</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">ETH:</span>
+							<span class="top-header__price">$12312</span>
+							<span class="top-header__percentage-red">(-0.12%)</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">Coins:</span>
+							<span class="top-header__price">$12323</span>
+							<span class="top-header__percentage-green">(+0.12%)</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">Total Airdrops:</span>
+							<span class="top-header__price">2030</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">Top Voted:</span>
+							<span class="top-header__price">BTC</span>
+						</div>
+					</div>
+					<div class="top-header__actions">
+						<select data-class-modif="top-header__language">
+							<option value="1" selected>EN</option>
+							<option value="2">UA</option>
+						</select>
+						<div class="top-header__office">
+							<a href="#" class="top-header__login">Login</a>
+							<a href="#" class="top-header__register">Register</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__body">
+						<a href="#" class="bottom-header__logo">
+							<svg width="111" height="34" viewBox="0 0 111 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.21875 30V2.5H5.71875V25.3125H11.375V30H0.21875ZM12.8125 5.125V0.46875H18.4062V5.125H12.8125ZM12.8125 30V6.5625H18.4062V30H12.8125ZM21.1406 30V11.8594H20.125V7.59375H21.1406V6C21.1406 3.47917 22.401 2.21875 24.9219 2.21875C26.1094 2.21875 27.0677 2.36979 27.7969 2.67188V6.125C27.5365 6.07292 27.3646 6.04688 27.2812 6.04688C26.9583 6.04688 26.7604 6.16667 26.6875 6.40625C26.6146 6.63542 26.5781 6.93229 26.5781 7.29688V7.59375H27.7969V11.9219H26.6875V30H21.1406ZM34.4062 30.25C32.8958 30.25 31.875 29.9323 31.3438 29.2969C30.8229 28.651 30.5625 27.6667 30.5625 26.3438V11.7344H28.9844V7.46875H30.5625V2.5H36V7.46875H37.5781V11.7344H36V25.0312C36 25.4167 36.0625 25.6875 36.1875 25.8438C36.3125 26 36.5521 26.0781 36.9062 26.0781C37.1562 26.0781 37.3802 26.0573 37.5781 26.0156V29.8281C37.4531 29.8698 37.0625 29.9479 36.4062 30.0625C35.75 30.1875 35.0833 30.25 34.4062 30.25ZM41.8281 30V7.78125H38.5625V2.5H50.5938V7.78125H47.3281V30H41.8281ZM58.125 30.25C53.4583 30.25 51.125 27.8281 51.125 22.9844V13.5781C51.125 11.3698 51.7448 9.60938 52.9844 8.29688C54.224 6.97396 55.9375 6.3125 58.125 6.3125C60.3229 6.3125 62.0417 6.97396 63.2812 8.29688C64.5208 9.60938 65.1406 11.3698 65.1406 13.5781V22.9844C65.1406 27.8281 62.8021 30.25 58.125 30.25ZM58.125 25.9375C58.5938 25.9375 58.9271 25.7708 59.125 25.4375C59.3333 25.0938 59.4375 24.6615 59.4375 24.1406V12.6875C59.4375 11.3229 59 10.6406 58.125 10.6406C57.25 10.6406 56.8125 11.3229 56.8125 12.6875V24.1406C56.8125 24.6615 56.9115 25.0938 57.1094 25.4375C57.3177 25.7708 57.6562 25.9375 58.125 25.9375ZM73.8438 30.25C71.3333 30.25 69.5208 29.625 68.4062 28.375C67.3021 27.125 66.75 25.1354 66.75 22.4062V19.7188H72.1875V23.1562C72.1875 23.7917 72.2812 24.2917 72.4688 24.6562C72.6667 25.0104 73.0052 25.1875 73.4844 25.1875C73.9844 25.1875 74.3281 25.0417 74.5156 24.75C74.7135 24.4583 74.8125 23.9792 74.8125 23.3125C74.8125 22.4688 74.7292 21.7656 74.5625 21.2031C74.3958 20.6302 74.1042 20.0885 73.6875 19.5781C73.2812 19.0573 72.7135 18.4531 71.9844 17.7656L69.5156 15.4219C67.6719 13.6823 66.75 11.6927 66.75 9.45312C66.75 7.10938 67.2917 5.32292 68.375 4.09375C69.4688 2.86458 71.0469 2.25 73.1094 2.25C75.6302 2.25 77.4167 2.92188 78.4688 4.26562C79.5312 5.60938 80.0625 7.65104 80.0625 10.3906H74.4688V8.5C74.4688 8.125 74.3594 7.83333 74.1406 7.625C73.9323 7.41667 73.6458 7.3125 73.2812 7.3125C72.8438 7.3125 72.5208 7.4375 72.3125 7.6875C72.1146 7.92708 72.0156 8.23958 72.0156 8.625C72.0156 9.01042 72.1198 9.42708 72.3281 9.875C72.5365 10.3229 72.9479 10.8385 73.5625 11.4219L76.7344 14.4688C77.3698 15.0729 77.9531 15.7135 78.4844 16.3906C79.0156 17.0573 79.4427 17.8385 79.7656 18.7344C80.0885 19.6198 80.25 20.7031 80.25 21.9844C80.25 24.5677 79.7708 26.5938 78.8125 28.0625C77.8646 29.5208 76.2083 30.25 73.8438 30.25ZM82 30V2.5H87.5312V14.6406L90.2188 6.5625H96.0156L92.5 16.75L96.9688 30H91.0156L87.5312 18.9531V30H82ZM97.2656 33.9062V30.3594H99.9531C100.359 30.3594 100.562 30.2188 100.562 29.9375C100.562 29.7917 100.547 29.6406 100.516 29.4844L96.8438 6.5625H102.203L103.766 23.8125L105.609 6.5625H111L106.656 31.2188C106.5 32.1042 106.198 32.7708 105.75 33.2188C105.312 33.6771 104.589 33.9062 103.578 33.9062H97.2656Z" fill="currentColor" />
+							</svg>
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">Coins</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Airdrop</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Presales</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="bottom-header__actions">
+						<div id="search-header" class="bottom-header__search search-bottom-header">
+							<input type="text" id="search-input" autocomplete="off" placeholder="Search" class="search-bottom-header__input input" />
+							<div id="search-list" class="search-bottom-header__list">
+								<ul class="search-bottom-header__scroll">
+									<li class="search-bottom-header__item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/humo.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Humo
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#1234
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/CHUNKY-CAT.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin CHUNKY CAT
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#1543
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/emptiness-community.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Emptiness community
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#5467
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/ice-rat.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Ice Rat
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#24754
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/BRAIN-KRANG.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin BRAIN KRANG
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#3457
+											</div>
+										</a>
+									</li>
+								</ul>
+								<div class="search-bottom-header__no-results body-text-b2">
+									No results found
+								</div>
+							</div>
+						</div>
+						<button type="button" class="bottom-header__button button button--orange">
+							<span>ADD COIN</span>
+							<span class="button--background"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="decor-circle"></div>
+			<div class="page__banner banner">
+				<div class="banner__container">
+					<a href="#" class="banner__item banner__item--big">
+						<img src="img/main/banner/01.webp" class="banner__picture" alt="Image">
+					</a>
+					<div class="banner__body">
+						<a href="#" class="banner__item">
+							<img src="img/main/banner/02.webp" class="banner__picture" alt="Image">
+						</a>
+						<a href="#" class="banner__item">
+							<img src="img/main/banner/02.webp" class="banner__picture" alt="Image">
+						</a>
+					</div>
+				</div>
+			</div>
+			<section class="page__main main">
+				<div class="main__container">
+					<h1 class="main__title">
+						The most popular cryptocurrencies today
+					</h1>
+					<div class="main__body body-main">
+						<div class="body-main__item item-main item-main--state">
+							<div class="item-main__top top-item-main top-item-main--state">
+								<h4 class="top-item-main__title body-text-b3 body-text-b3--bold">
+									🔥 New Coins
+								</h4>
+								<a href="#" class="top-item-main__link body-text-b2">View More</a>
+							</div>
+							<ul class="item-main__list">
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/humo.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Humo</div>
+									</a>
+									<div class="item-main__state body-text-b2">4 mins ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/CHUNKY-CAT.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">CHUNKY CAT</div>
+									</a>
+									<div class="item-main__state body-text-b2">12 mins ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/emptiness-community.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Emptiness community</div>
+									</a>
+									<div class="item-main__state body-text-b2">51 mins ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/ice-rat.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Ice Rat</div>
+									</a>
+									<div class="item-main__state body-text-b2">1 hour ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/BRAIN-KRANG.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">BRAIN KRANG</div>
+									</a>
+									<div class="item-main__state body-text-b2">1 hour ago</div>
+								</li>
+							</ul>
+						</div>
+						<div class="body-main__item item-main item-main--state">
+							<div class="item-main__top top-item-main">
+								<h4 class="top-item-main__title body-text-b3 body-text-b3--bold">
+									⌛️ Presale Live
+								</h4>
+								<a href="#" class="top-item-main__link body-text-b2">View More</a>
+							</div>
+							<ul class="item-main__list">
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/humo.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Humo</div>
+									</a>
+									<div class="item-main__state body-text-b2">Promoted</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/CHUNKY-CAT.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">CHUNKY CAT</div>
+									</a>
+									<div class="item-main__state body-text-b2">Promoted</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/emptiness-community.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Emptiness community</div>
+									</a>
+									<div class="item-main__state body-text-b2">Promoted</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/ice-rat.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Ice Rat</div>
+									</a>
+									<div class="item-main__state body-text-b2">Promoted</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/BRAIN-KRANG.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">BRAIN KRANG</div>
+									</a>
+									<div class="item-main__state body-text-b2">Promoted</div>
+								</li>
+							</ul>
+						</div>
+						<div class="body-main__item item-main item-main--state">
+							<div class="item-main__top top-item-main">
+								<h4 class="top-item-main__title body-text-b3 body-text-b3--bold">
+									🌕 Top gainers
+								</h4>
+								<a href="#" class="top-item-main__link body-text-b2">View More</a>
+							</div>
+							<ul class="item-main__list">
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/humo.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Humo</div>
+									</a>
+									<div class="item-main__state body-text-b2">4 mins ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/CHUNKY-CAT.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">CHUNKY CAT</div>
+									</a>
+									<div class="item-main__state body-text-b2">12 mins ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/emptiness-community.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Emptiness community</div>
+									</a>
+									<div class="item-main__state body-text-b2">51 mins ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/ice-rat.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">Ice Rat</div>
+									</a>
+									<div class="item-main__state body-text-b2">1 hour ago</div>
+								</li>
+								<li class="item-main__item">
+									<a href="#" class="item-main__link">
+										<div class="item-main__image">
+											<img src="img/main/main/BRAIN-KRANG.webp" class="item-main__picture" alt="Image">
+										</div>
+										<div class="item-main__name body-text-b2">BRAIN KRANG</div>
+									</a>
+									<div class="item-main__state body-text-b2">1 hour ago</div>
+								</li>
+							</ul>
+						</div>
+						<div class="body-main__item item-main">
+							<div class="item-main__top top-item-main">
+								<h4 class="top-item-main__title body-text-b3 body-text-b3--bold">
+									Win Big with Our Giveaway!
+								</h4>
+							</div>
+							<div class="item-main__giveaway giveaway-item-main">
+								<div class="giveaway-item-main__top">
+									<h5 class="giveaway-item-main__title">
+										Giveaway <span class="giveaway-item-main__title--orange">150 USDT</span>
+									</h5>
+									<p class="giveaway-item-main__text">$150 to one lucky winner!</p>
+								</div>
+								<div class="giveaway-item-main__bottom">
+									<div class="giveaway-item-main__date">
+										<time datetime="2024-12-18" class="giveaway-item-main__time body-text-b1">
+											Start: December 18th
+										</time>
+										<time datetime="2024-12-25" class="giveaway-item-main__time body-text-b1">
+											End: December 25th
+										</time>
+									</div>
+									<div class="giveaway-item-main__actions">
+										<button type="button" class="giveaway-item-main__button button body-text-b1 body-text-b1--bold">Join Giveaway</button>
+										<button type="button" class="giveaway-item-main__button giveaway-item-main__button--orange button body-text-b1 body-text-b1--bold">All
+											Giveaways</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-main__item item-main">
+							<div class="item-main__top top-item-main top-item-main--state">
+								<h4 class="top-item-main__title body-text-b3 body-text-b3--bold">
+									Airdrops
+								</h4>
+								<a href="#" class="top-item-main__link body-text-b2">Show All</a>
+							</div>
+							<ul class="item-main__info info-item-main">
+								<li class="info-item-main__item">
+									<a href="#" class="info-item-main__link">
+										<div class="info-item-main__avatar">
+											<img src="img/main/main/airdrops.webp" class="info-item-main__picture" alt="Image">
+										</div>
+										<div class="info-item-main__body">
+											<div class="info-item-main__name body-text-b2">
+												Belugana
+											</div>
+											<div class="info-item-main__reward body-text-b1">
+												Reward: $belu
+											</div>
+										</div>
+									</a>
+									<div class="info-item-main__live">
+										<div class="info-item-main__block">
+											<div class="info-item-main__text">Live</div>
+										</div>
+										<div class="info-item-main__time">
+											<div class="info-item-main__icon">⌛️ </div>
+											<div class="info-item-main__day">20d</div>
+											<div class="info-item-main__icon">:</div>
+											<div class="info-item-main__hour">1h</div>
+											<div class="info-item-main__icon">:</div>
+											<div class="info-item-main__minute">34m</div>
+										</div>
+									</div>
+								</li>
+								<li class="info-item-main__item">
+									<a href="#" class="info-item-main__link">
+										<div class="info-item-main__avatar">
+											<img src="img/main/main/airdrops.webp" class="info-item-main__picture" alt="Image">
+										</div>
+										<div class="info-item-main__body">
+											<div class="info-item-main__name body-text-b2">
+												Belugana
+											</div>
+											<div class="info-item-main__reward body-text-b1">
+												Reward: $belu
+											</div>
+										</div>
+									</a>
+									<div class="info-item-main__live">
+										<div class="info-item-main__block">
+											<div class="info-item-main__text">Live</div>
+										</div>
+										<div class="info-item-main__time">
+											<div class="info-item-main__icon">⌛️ </div>
+											<div class="info-item-main__day">20d</div>
+											<div class="info-item-main__icon">:</div>
+											<div class="info-item-main__hour">1h</div>
+											<div class="info-item-main__icon">:</div>
+											<div class="info-item-main__minute">34m</div>
+										</div>
+									</div>
+								</li>
+								<li class="info-item-main__item">
+									<a href="#" class="info-item-main__link">
+										<div class="info-item-main__avatar">
+											<img src="img/main/main/airdrops.webp" class="info-item-main__picture" alt="Image">
+										</div>
+										<div class="info-item-main__body">
+											<div class="info-item-main__name body-text-b2">
+												Belugana
+											</div>
+											<div class="info-item-main__reward body-text-b1">
+												Reward: $belu
+											</div>
+										</div>
+									</a>
+									<div class="info-item-main__live">
+										<div class="info-item-main__block">
+											<div class="info-item-main__text">Live</div>
+										</div>
+										<div class="info-item-main__time">
+											<div class="info-item-main__icon">⌛️ </div>
+											<div class="info-item-main__day">20d</div>
+											<div class="info-item-main__icon">:</div>
+											<div class="info-item-main__hour">1h</div>
+											<div class="info-item-main__icon">:</div>
+											<div class="info-item-main__minute">34m</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="body-main__item item-main">
+							<div class="item-main__top top-item-main top-item-main--state">
+								<h4 class="top-item-main__title body-text-b3 body-text-b3--bold">
+									Blogs
+								</h4>
+								<a href="#" class="top-item-main__link body-text-b2">Show All</a>
+							</div>
+							<ul class="item-main__info info-item-main">
+								<li class="info-item-main__item">
+									<a href="#" class="info-item-main__link">
+										<div class="info-item-main__avatar">
+											<img src="img/main/main/blogs.webp" class="info-item-main__picture" alt="Image">
+										</div>
+										<div class="info-item-main__body">
+											<h4 class="info-item-main__title body-text-b2">
+												Bitcoin Casinos in Canada – Ultimate Starter Guide
+											</h4>
+											<time datetime="2024-12-12" class="info-item-main__date body-text-b1">
+												December 12 2024 by Guest Author
+											</time>
+										</div>
+									</a>
+								</li>
+								<li class="info-item-main__item">
+									<a href="#" class="info-item-main__link">
+										<div class="info-item-main__avatar">
+											<img src="img/main/main/blogs.webp" class="info-item-main__picture" alt="Image">
+										</div>
+										<div class="info-item-main__body">
+											<h4 class="info-item-main__title body-text-b2">
+												Bitcoin Casinos in Canada – Ultimate Starter Guide
+											</h4>
+											<time datetime="2024-12-12" class="info-item-main__date body-text-b1">
+												December 12 2024 by Guest Author
+											</time>
+										</div>
+									</a>
+								</li>
+								<li class="info-item-main__item">
+									<a href="#" class="info-item-main__link">
+										<div class="info-item-main__avatar">
+											<img src="img/main/main/blogs.webp" class="info-item-main__picture" alt="Image">
+										</div>
+										<div class="info-item-main__body">
+											<h4 class="info-item-main__title body-text-b2">
+												Bitcoin Casinos in Canada – Ultimate Starter Guide
+											</h4>
+											<time datetime="2024-12-12" class="info-item-main__date body-text-b1">
+												December 12 2024 by Guest Author
+											</time>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="main__image">
+					<img src="img/main/main/bg.webp" class="main__pictre" alt="Image">
+				</div> -->
+			</section>
+			<div class="page__coins coins">
+				<div class="coins__container">
+					<h2 class="coins__title">Best Coins Today</h2>
+					<div class="coins__filter filter-coins">
+						<div class="filter-coins__options options-filter-coins">
+							<div class="options-filter-coins__header header-filter-coins">
+								<div class="header-filter-coins__item">
+									<div class="header-filter-coins__label body-text-b1 body-text-b1--bold">Chain</div>
+									<div class="header-filter-coins__dropdown dropdown">
+										<button type="button" class="header-filter-coins__button dropdown__button">All chains</button>
+										<div class="header-filter-coins__body body-coins-dropdown dropdown__body">
+											<div class="dropdown__wrapper">
+												<ul class="body-coins-dropdown__scroll dropdown__scroll ">
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="chain_1" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="chain_1" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">BSC</span>
+															<span class="body-coins-dropdown__image">
+																<img src="img/main/coins/bsc.webp" class="body-coins-dropdown__picture" alt="Image">
+															</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="chain_2" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="chain_2" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">ETH</span>
+															<span class="body-coins-dropdown__image">
+																<img src="img/main/coins/eth.webp" class="body-coins-dropdown__picture" alt="Image">
+															</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="chain_3" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="chain_3" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">SOL</span>
+															<span class="body-coins-dropdown__image">
+																<img src="img/main/coins/sql.webp" class="body-coins-dropdown__picture" alt="Image">
+															</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="chain_4" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="chain_4" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">SUI</span>
+															<span class="body-coins-dropdown__image">
+																<img src="img/main/coins/sui.webp" class="body-coins-dropdown__picture" alt="Image">
+															</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="chain_5" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="chain_5" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">BASE</span>
+															<span class="body-coins-dropdown__image">
+																<img src="img/main/coins/base.webp" class="body-coins-dropdown__picture" alt="Image">
+															</span>
+														</label>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="header-filter-coins__item">
+									<div class="header-filter-coins__label body-text-b1 body-text-b1--bold">Category</div>
+									<div class="header-filter-coins__dropdown dropdown">
+										<button type="button" class="header-filter-coins__button dropdown__button">All categories</button>
+										<div class="header-filter-coins__body body-coins-dropdown dropdown__body">
+											<div class="dropdown__wrapper">
+												<ul class="body-coins-dropdown__scroll dropdown__scroll">
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="category_1" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="category_1" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">Defi</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="category_2" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="category_2" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">Fan Token</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="category_3" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="category_3" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">Gambling</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="category_4" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="category_4" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">Gaming</span>
+														</label>
+													</li>
+													<li class="body-coins-dropdown__checkbox checkbox">
+														<input id="category_5" data-error="Помилка" class="body-coins-dropdown__input checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="category_5" class="body-coins-dropdown__label checkbox__label">
+															<span class="body-coins-dropdown__text checkbox__text body-text-b2">Artificial Intelligence</span>
+														</label>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="header-filter-coins__item">
+									<div class="header-filter-coins__label body-text-b1 body-text-b1--bold">Market Cap</div>
+									<div class="header-filter-coins__dropdown dropdown">
+										<button type="button" class="header-filter-coins__button dropdown__button">
+											<span class="range body-text-b2">
+												<span>$ 0</span>
+												<span>-</span>
+												<span>$ 1,000</span>
+												<span>B</span>
+											</span>
+										</button>
+										<div class="header-filter-coins__body body-coins-dropdown dropdown__body">
+											<div class="dropdown__wrapper">
+												<ul class="body-coins-dropdown__scroll dropdown__scroll">
+													<li class="body-coins-dropdown__range">
+														<div class="body-coins-dropdown__min">$ Min</div>
+														<input autocomplete="off" type="number" placeholder="0" class="body-coins-dropdown__input input" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+													</li>
+													<li class="body-coins-dropdown__range">
+														<div class="body-coins-dropdown__max">$ Max</div>
+														<input autocomplete="off" type="number" placeholder="99999999999" class="body-coins-dropdown__input input" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="header-filter-coins__listing">
+									<div class="header-filter-coins__label body-text-b1 body-text-b1--bold">Listing</div>
+									<div class="header-filter-coins__actions">
+										<button type="button" class="header-filter-coins__button-listing button">
+											<img src="img/main/coins/cmc.webp" alt="Image">
+											<span class="body-text-b2">CMC</span>
+										</button>
+										<button type="button" class="header-filter-coins__button-listing button">
+											<img src="img/main/coins/cg.webp" alt="Image">
+											<span class="body-text-b2">CG</span>
+										</button>
+									</div>
+								</div>
+								<button type="button" class="header-filter-coins__reset button body-text-b2">
+									Reset Filters
+								</button>
+							</div>
+							<div class="options-filter-coins__go-to go-to-filter-coins">
+								<div class="go-to-filter-coins__text body-text-b2">
+									Go To
+								</div>
+								<ul class="go-to-filter-coins__list">
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<img src="img/main/coins/sql.webp" class="go-to-filter-coins__picture" alt="Image">
+											<span>SOL</span>
+										</button>
+									</li>
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<img src="img/main/coins/sql.webp" class="go-to-filter-coins__picture" alt="Image">
+											<span>ETH</span>
+										</button>
+									</li>
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<img src="img/main/coins/bsc.webp" class="go-to-filter-coins__picture" alt="Image">
+											<span>BSC</span>
+										</button>
+									</li>
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<img src="img/main/coins/sui.webp" class="go-to-filter-coins__picture" alt="Image">
+											<span>SUI</span>
+										</button>
+									</li>
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<img src="img/main/coins/presales.webp" class="go-to-filter-coins__picture" alt="Image">
+											<span>Presales</span>
+										</button>
+									</li>
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<span>Memecoins</span>
+										</button>
+									</li>
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<span>Peanut Tokens</span>
+										</button>
+									</li>
+									<li class="go-to-filter-coins__item body-text-b2">
+										<button type="button" class="go-to-filter-coins__button button">
+											<span>Pump.fun Tokens</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<ul class="filter-coins__list list-filter-coins">
+							<li class="list-filter-coins__filter">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image body-text-b1">
+									Coin
+								</div>
+								<div class="list-filter-coins__link">
+									Name
+								</div>
+								<div type="button" class="list-filter-coins__state body-text-b1">
+									<button type="button" class="list-filter-coins__arrow button">
+										Market Cap
+									</button>
+								</div>
+								<div class="list-filter-coins__price body-text-b1">
+									<button type="button" class="list-filter-coins__arrow button">
+										Price
+									</button>
+								</div>
+								<div class="list-filter-coins__change body-text-b1">
+									<button type="button" class="list-filter-coins__arrow button">
+										Change 24h
+									</button>
+								</div>
+								<div class="list-filter-coins__launch body-text-b1">
+									<button type="button" class="list-filter-coins__arrow button">
+										Launch
+									</button>
+								</div>
+								<div class="list-filter-coins__chain body-text-b1">
+									<button type="button" class="list-filter-coins__arrow list-filter-coins__arrow--double button">
+										Chain
+									</button>
+								</div>
+								<div class="list-filter-coins__votes">
+									Votes
+								</div>
+							</li>
+							<li class="list-filter-coins__item list-filter-coins__item--orange">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item list-filter-coins__item--orange">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item list-filter-coins__item--orange">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item list-filter-coins__item--orange">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item list-filter-coins__item--orange">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/sql.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/sql.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/sql.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/sql.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/eth.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/sql.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+							<li class="list-filter-coins__item">
+								<button type="button" class="list-filter-coins__favorite">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3446 14.901L14.2849 17.3974C14.7886 17.7165 15.4139 17.2419 15.2644 16.654L14.126 12.1756C14.0939 12.0509 14.0977 11.9197 14.137 11.797C14.1762 11.6743 14.2492 11.5652 14.3477 11.4822L17.8811 8.54132C18.3453 8.1549 18.1057 7.38439 17.5092 7.34568L12.8949 7.0462C12.7706 7.03732 12.6514 6.99332 12.5511 6.91931C12.4509 6.84531 12.3737 6.74435 12.3286 6.62819L10.6076 2.29436C10.5609 2.17106 10.4777 2.06492 10.3692 1.99002C10.2606 1.91511 10.1319 1.875 10 1.875C9.86813 1.875 9.73938 1.91511 9.63085 1.99002C9.52232 2.06492 9.43914 2.17106 9.39236 2.29436L7.6714 6.62819C7.6263 6.74435 7.54914 6.84531 7.4489 6.91931C7.34865 6.99332 7.22944 7.03732 7.10515 7.0462L2.49078 7.34568C1.89429 7.38439 1.65466 8.1549 2.11894 8.54132L5.65232 11.4822C5.75079 11.5652 5.82383 11.6743 5.86305 11.797C5.90226 11.9197 5.90606 12.0509 5.874 12.1756L4.81824 16.3288C4.63889 17.0343 5.38929 17.6038 5.99369 17.2209L9.65539 14.901C9.75837 14.8354 9.87792 14.8006 10 14.8006C10.1221 14.8006 10.2416 14.8354 10.3446 14.901V14.901Z" stroke="url(#paint0_linear_29_6122)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<linearGradient id="paint0_linear_29_6122" x1="1.82083" y1="3.0957" x2="19.8721" y2="6.11278" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#EF9A24" />
+												<stop offset="1" stop-color="#F2DD42" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</button>
+								<div class="list-filter-coins__image">
+									<img src="img/main/coins/pizza-hat.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<a href="#" class="list-filter-coins__link">
+									<div class="list-filter-coins__name body-text-b1 body-text-b1--bold">
+										PIZZA HAT
+									</div>
+									<div class="list-filter-coins__label body-text-b1">
+										$PIZZA
+									</div>
+								</a>
+								<div class="list-filter-coins__state body-text-b1">
+									⌛️ Presale
+								</div>
+								<div class="list-filter-coins__price">
+									<div class="list-filter-coins__label body-text-b1">
+										Softcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										200 SOL
+									</div>
+								</div>
+								<div class="list-filter-coins__change">
+									<div class="list-filter-coins__label body-text-b1">
+										Hardcap
+									</div>
+									<div class="list-filter-coins__value body-text-b1">
+										9000
+									</div>
+								</div>
+								<div class="list-filter-coins__launch">
+									<div class="list-filter-coins__time body-text-b1">
+										In 5 months
+									</div>
+								</div>
+								<div class="list-filter-coins__chain">
+									<img src="img/main/coins/bsc.webp" class="list-filter-coins__picture" alt="Image">
+								</div>
+								<div class="list-filter-coins__votes">
+									<button type="button" class="list-filter-coins__button button">
+										<span class="list-filter-coins__button--vote">12</span> Vote
+									</button>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<ul class="pagging__list">
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">1</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">2</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">3</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">4</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">5</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">6</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">7</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">8</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">...</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">1355</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<section class="page__here here">
+				<div class="here__container">
+					<div class="here__header header-here">
+						<h2 class="header-here__title">
+							Your banner here? Contact us!
+						</h2>
+						<div class="header-here__content">
+							<p class="header-here__text body-text-b3">
+								Boost your visibility and connect with thousands of potential customers now!
+							</p>
+							<a href="#" class="header-here__link">Learn More</a>
+						</div>
+					</div>
+					<div class="here__body body-here">
+						<div class="body-here__item">
+							<div class="body-here__image">
+								<img src="img/main/here/01.svg" class="body-here__picture" alt="Image">
+							</div>
+							<h4 class="body-here__title body-text-b3 body-text-b3--bold">
+								Your Favorite Coin Missing?
+							</h4>
+							<p class="body-here__text body-text-b2">
+								Can't find your coin? List it now and let your community vote to boost its visibility and gain more exposure!
+							</p>
+							<button type="button" class="body-here__button">Submit Coin</button>
+						</div>
+						<div class="body-here__item">
+							<div class="body-here__image">
+								<img src="img/main/here/02.svg" class="body-here__picture" alt="Image">
+							</div>
+							<h4 class="body-here__title body-text-b3 body-text-b3--bold">
+								View New Listings
+							</h4>
+							<p class="body-here__text body-text-b2">
+								Click the button below to view the New Listings! These coins were just submitted.
+							</p>
+							<button type="button" class="body-here__button body-here__button--orange">View New Listings</button>
+						</div>
+						<div class="body-here__item">
+							<div class="body-here__image">
+								<img src="img/main/here/03.svg" class="body-here__picture" alt="Image">
+							</div>
+							<h4 class="body-here__title body-text-b3 body-text-b3--bold">
+								Find the best new cryptocurrency projects
+							</h4>
+							<p class="body-here__text body-text-b2">
+								Find the best new cryptocurrency projects, coins, and tokens like Doge and Shiba Inu on websites like coinsniper.net — often
+								before they appear on CoinMarketCap, CoinGecko, or major exchanges
+							</p>
+						</div>
+						<div class="body-here__item">
+							<div class="body-here__image">
+								<img src="img/main/here/04.svg" class="body-here__picture" alt="Image">
+							</div>
+							<h4 class="body-here__title body-text-b3 body-text-b3--bold">
+								How does CoinSniper work?
+							</h4>
+							<p class="body-here__text body-text-b2">
+								List your new cryptocurrency project by applying here, and it will instantly appear on the New Listings Page. The more votes
+								your project gets, the higher it ranks, giving you better exposure. Unique votes count once for "All Time" rankings and every
+								24 hours for "Today" rankings.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__body">
+						<h2 class="subscribe__title">
+							Subscribe to our newsletter
+						</h2>
+						<p class="subscribe__text body-text-b3">
+							Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.
+						</p>
+						<form class="subscribe__form form-subscribe">
+							<div class="form-subscribe__top">
+								<input autocomplete="off" type="email" name="form[]" data-error="Помилка" placeholder="Your e-mail" class="form-subscribe__input input" required>
+								<button type="submit" class="form-subscribe__button button button--orange">
+									<span>Subscribe</span>
+									<span class="button--background"></span>
+								</button>
+							</div>
+							<div class="form-subscribe__checkbox checkbox-form-subscribe checkbox">
+								<input id="checkbox-form-subscribe" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="checkbox-form-subscribe" class="checkbox-form-subscribe__label checkbox__label"><span class="checkbox__text">You
+										can always unsubscribe. Check our <a href="#" class="checkbox__text--primary">Terms of use</a> and <a href="#" class="checkbox__text--primary">Privacy Policy</a> here</span></label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top top-footer">
+				<div class="top-footer__container">
+					<a href="#" class="top-footer__logo">
+						<svg width="111" height="34" viewBox="0 0 111 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.21875 30V2.5H5.71875V25.3125H11.375V30H0.21875ZM12.8125 5.125V0.46875H18.4062V5.125H12.8125ZM12.8125 30V6.5625H18.4062V30H12.8125ZM21.1406 30V11.8594H20.125V7.59375H21.1406V6C21.1406 3.47917 22.401 2.21875 24.9219 2.21875C26.1094 2.21875 27.0677 2.36979 27.7969 2.67188V6.125C27.5365 6.07292 27.3646 6.04688 27.2812 6.04688C26.9583 6.04688 26.7604 6.16667 26.6875 6.40625C26.6146 6.63542 26.5781 6.93229 26.5781 7.29688V7.59375H27.7969V11.9219H26.6875V30H21.1406ZM34.4062 30.25C32.8958 30.25 31.875 29.9323 31.3438 29.2969C30.8229 28.651 30.5625 27.6667 30.5625 26.3438V11.7344H28.9844V7.46875H30.5625V2.5H36V7.46875H37.5781V11.7344H36V25.0312C36 25.4167 36.0625 25.6875 36.1875 25.8438C36.3125 26 36.5521 26.0781 36.9062 26.0781C37.1562 26.0781 37.3802 26.0573 37.5781 26.0156V29.8281C37.4531 29.8698 37.0625 29.9479 36.4062 30.0625C35.75 30.1875 35.0833 30.25 34.4062 30.25ZM41.8281 30V7.78125H38.5625V2.5H50.5938V7.78125H47.3281V30H41.8281ZM58.125 30.25C53.4583 30.25 51.125 27.8281 51.125 22.9844V13.5781C51.125 11.3698 51.7448 9.60938 52.9844 8.29688C54.224 6.97396 55.9375 6.3125 58.125 6.3125C60.3229 6.3125 62.0417 6.97396 63.2812 8.29688C64.5208 9.60938 65.1406 11.3698 65.1406 13.5781V22.9844C65.1406 27.8281 62.8021 30.25 58.125 30.25ZM58.125 25.9375C58.5938 25.9375 58.9271 25.7708 59.125 25.4375C59.3333 25.0938 59.4375 24.6615 59.4375 24.1406V12.6875C59.4375 11.3229 59 10.6406 58.125 10.6406C57.25 10.6406 56.8125 11.3229 56.8125 12.6875V24.1406C56.8125 24.6615 56.9115 25.0938 57.1094 25.4375C57.3177 25.7708 57.6562 25.9375 58.125 25.9375ZM73.8438 30.25C71.3333 30.25 69.5208 29.625 68.4062 28.375C67.3021 27.125 66.75 25.1354 66.75 22.4062V19.7188H72.1875V23.1562C72.1875 23.7917 72.2812 24.2917 72.4688 24.6562C72.6667 25.0104 73.0052 25.1875 73.4844 25.1875C73.9844 25.1875 74.3281 25.0417 74.5156 24.75C74.7135 24.4583 74.8125 23.9792 74.8125 23.3125C74.8125 22.4688 74.7292 21.7656 74.5625 21.2031C74.3958 20.6302 74.1042 20.0885 73.6875 19.5781C73.2812 19.0573 72.7135 18.4531 71.9844 17.7656L69.5156 15.4219C67.6719 13.6823 66.75 11.6927 66.75 9.45312C66.75 7.10938 67.2917 5.32292 68.375 4.09375C69.4688 2.86458 71.0469 2.25 73.1094 2.25C75.6302 2.25 77.4167 2.92188 78.4688 4.26562C79.5312 5.60938 80.0625 7.65104 80.0625 10.3906H74.4688V8.5C74.4688 8.125 74.3594 7.83333 74.1406 7.625C73.9323 7.41667 73.6458 7.3125 73.2812 7.3125C72.8438 7.3125 72.5208 7.4375 72.3125 7.6875C72.1146 7.92708 72.0156 8.23958 72.0156 8.625C72.0156 9.01042 72.1198 9.42708 72.3281 9.875C72.5365 10.3229 72.9479 10.8385 73.5625 11.4219L76.7344 14.4688C77.3698 15.0729 77.9531 15.7135 78.4844 16.3906C79.0156 17.0573 79.4427 17.8385 79.7656 18.7344C80.0885 19.6198 80.25 20.7031 80.25 21.9844C80.25 24.5677 79.7708 26.5938 78.8125 28.0625C77.8646 29.5208 76.2083 30.25 73.8438 30.25ZM82 30V2.5H87.5312V14.6406L90.2188 6.5625H96.0156L92.5 16.75L96.9688 30H91.0156L87.5312 18.9531V30H82ZM97.2656 33.9062V30.3594H99.9531C100.359 30.3594 100.562 30.2188 100.562 29.9375C100.562 29.7917 100.547 29.6406 100.516 29.4844L96.8438 6.5625H102.203L103.766 23.8125L105.609 6.5625H111L106.656 31.2188C106.5 32.1042 106.198 32.7708 105.75 33.2188C105.312 33.6771 104.589 33.9062 103.578 33.9062H97.2656Z" fill="currentColor" />
+						</svg>
+					</a>
+					<ul class="top-footer__list">
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Coins</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Airdrop</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Blog</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Presales</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Contact Us</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Services</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Advertise</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Daily top</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">New Listings</a></div>
+					</ul>
+					<button id="scroll-up" type="button" class="top-footer__button button button--orange">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M3.75 12.5L10 6.25L16.25 12.5" stroke="#01001A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+						<span class="button--background"></span>
+					</button>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__body">
+						<ul class="bottom-footer__list">
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/telegram-footer.svg" alt="Image">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/twitter-footer.svg" alt="Image">
+								</a>
+							</li>
+						</ul>
+						<a href="https://www.dmca.com/" class="bottom-footer__image">
+							<img src="img/footer/dmca.webp" class="bottom-footer__picture" alt="Image">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy copy-footer">
+				<div class="copy-footer__container">
+					<div class="copy-footer__text">© 2025 LiftToSky.net</div>
+					<ul class="copy-footer__list">
+						<li class="copy-footer__item"><a href="#" class="copy-footer__link">Cookie Statement</a></li>
+						<li class="copy-footer__item"><a href="#" class="copy-footer__link">Terms & Conditions</a></li>
+						<li class="copy-footer__item"><a href="#" class="copy-footer__link">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241231125735"></script>
+	</body>
+
+</html>
