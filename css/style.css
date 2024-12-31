@@ -475,6 +475,15 @@ textarea.input {
 ._active-dropdown .dropdown__button {
   border: 1px solid #f2ac43
 }
+.dropdown__button::after {
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s,-webkit-transform .3s
+}
+._active-dropdown .dropdown__button::after {
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg)
+}
 .dropdown__body {
   pointer-events: none;
   overflow: hidden
