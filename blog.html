@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Blog</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250105152308">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body">
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__items">
+						<div class="top-header__item">
+							<span class="top-header__name">BTC:</span>
+							<span class="top-header__price">$10100</span>
+							<span class="top-header__percentage-red">(-0.12%)</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">ETH:</span>
+							<span class="top-header__price">$12312</span>
+							<span class="top-header__percentage-red">(-0.12%)</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">Coins:</span>
+							<span class="top-header__price">$12323</span>
+							<span class="top-header__percentage-green">(+0.12%)</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">Total Airdrops:</span>
+							<span class="top-header__price">2030</span>
+						</div>
+						<div class="top-header__item">
+							<span class="top-header__name">Top Voted:</span>
+							<span class="top-header__price">BTC</span>
+						</div>
+					</div>
+					<div class="top-header__actions">
+						<select data-class-modif="top-header__language">
+							<option value="1" selected>EN</option>
+							<option value="2">UA</option>
+						</select>
+						<div class="top-header__office">
+							<a href="#" data-popup="#popup-login" class="top-header__login">Login</a>
+							<a href="#" data-popup="#popup-sign-up" class="top-header__register">Register</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__body">
+						<a href="home.html" class="bottom-header__logo">
+							<svg width="111" height="34" viewBox="0 0 111 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.21875 30V2.5H5.71875V25.3125H11.375V30H0.21875ZM12.8125 5.125V0.46875H18.4062V5.125H12.8125ZM12.8125 30V6.5625H18.4062V30H12.8125ZM21.1406 30V11.8594H20.125V7.59375H21.1406V6C21.1406 3.47917 22.401 2.21875 24.9219 2.21875C26.1094 2.21875 27.0677 2.36979 27.7969 2.67188V6.125C27.5365 6.07292 27.3646 6.04688 27.2812 6.04688C26.9583 6.04688 26.7604 6.16667 26.6875 6.40625C26.6146 6.63542 26.5781 6.93229 26.5781 7.29688V7.59375H27.7969V11.9219H26.6875V30H21.1406ZM34.4062 30.25C32.8958 30.25 31.875 29.9323 31.3438 29.2969C30.8229 28.651 30.5625 27.6667 30.5625 26.3438V11.7344H28.9844V7.46875H30.5625V2.5H36V7.46875H37.5781V11.7344H36V25.0312C36 25.4167 36.0625 25.6875 36.1875 25.8438C36.3125 26 36.5521 26.0781 36.9062 26.0781C37.1562 26.0781 37.3802 26.0573 37.5781 26.0156V29.8281C37.4531 29.8698 37.0625 29.9479 36.4062 30.0625C35.75 30.1875 35.0833 30.25 34.4062 30.25ZM41.8281 30V7.78125H38.5625V2.5H50.5938V7.78125H47.3281V30H41.8281ZM58.125 30.25C53.4583 30.25 51.125 27.8281 51.125 22.9844V13.5781C51.125 11.3698 51.7448 9.60938 52.9844 8.29688C54.224 6.97396 55.9375 6.3125 58.125 6.3125C60.3229 6.3125 62.0417 6.97396 63.2812 8.29688C64.5208 9.60938 65.1406 11.3698 65.1406 13.5781V22.9844C65.1406 27.8281 62.8021 30.25 58.125 30.25ZM58.125 25.9375C58.5938 25.9375 58.9271 25.7708 59.125 25.4375C59.3333 25.0938 59.4375 24.6615 59.4375 24.1406V12.6875C59.4375 11.3229 59 10.6406 58.125 10.6406C57.25 10.6406 56.8125 11.3229 56.8125 12.6875V24.1406C56.8125 24.6615 56.9115 25.0938 57.1094 25.4375C57.3177 25.7708 57.6562 25.9375 58.125 25.9375ZM73.8438 30.25C71.3333 30.25 69.5208 29.625 68.4062 28.375C67.3021 27.125 66.75 25.1354 66.75 22.4062V19.7188H72.1875V23.1562C72.1875 23.7917 72.2812 24.2917 72.4688 24.6562C72.6667 25.0104 73.0052 25.1875 73.4844 25.1875C73.9844 25.1875 74.3281 25.0417 74.5156 24.75C74.7135 24.4583 74.8125 23.9792 74.8125 23.3125C74.8125 22.4688 74.7292 21.7656 74.5625 21.2031C74.3958 20.6302 74.1042 20.0885 73.6875 19.5781C73.2812 19.0573 72.7135 18.4531 71.9844 17.7656L69.5156 15.4219C67.6719 13.6823 66.75 11.6927 66.75 9.45312C66.75 7.10938 67.2917 5.32292 68.375 4.09375C69.4688 2.86458 71.0469 2.25 73.1094 2.25C75.6302 2.25 77.4167 2.92188 78.4688 4.26562C79.5312 5.60938 80.0625 7.65104 80.0625 10.3906H74.4688V8.5C74.4688 8.125 74.3594 7.83333 74.1406 7.625C73.9323 7.41667 73.6458 7.3125 73.2812 7.3125C72.8438 7.3125 72.5208 7.4375 72.3125 7.6875C72.1146 7.92708 72.0156 8.23958 72.0156 8.625C72.0156 9.01042 72.1198 9.42708 72.3281 9.875C72.5365 10.3229 72.9479 10.8385 73.5625 11.4219L76.7344 14.4688C77.3698 15.0729 77.9531 15.7135 78.4844 16.3906C79.0156 17.0573 79.4427 17.8385 79.7656 18.7344C80.0885 19.6198 80.25 20.7031 80.25 21.9844C80.25 24.5677 79.7708 26.5938 78.8125 28.0625C77.8646 29.5208 76.2083 30.25 73.8438 30.25ZM82 30V2.5H87.5312V14.6406L90.2188 6.5625H96.0156L92.5 16.75L96.9688 30H91.0156L87.5312 18.9531V30H82ZM97.2656 33.9062V30.3594H99.9531C100.359 30.3594 100.562 30.2188 100.562 29.9375C100.562 29.7917 100.547 29.6406 100.516 29.4844L96.8438 6.5625H102.203L103.766 23.8125L105.609 6.5625H111L106.656 31.2188C106.5 32.1042 106.198 32.7708 105.75 33.2188C105.312 33.6771 104.589 33.9062 103.578 33.9062H97.2656Z" fill="currentColor" />
+							</svg>
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">Coins</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Airdrop</a></li>
+									<li class="menu__item"><a href="blog.html" class="menu__link">Blog</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Presales</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="bottom-header__actions">
+						<div class="bottom-header__search search-bottom-header search-header">
+							<input type="text" class="search-bottom-header__input input search-input" autocomplete="off" placeholder="Search" />
+							<div class="search-bottom-header__list search-list">
+								<ul class="search-scroll search-bottom-header__scroll">
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/humo.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Humo
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#1234
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/CHUNKY-CAT.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin CHUNKY CAT
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#1543
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/emptiness-community.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Emptiness community
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#5467
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/ice-rat.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Ice Rat
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#24754
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/BRAIN-KRANG.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin BRAIN KRANG
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#3457
+											</div>
+										</a>
+									</li>
+								</ul>
+								<div class="search-bottom-header__no-results body-text-b2 search-no-results">
+									No results found
+								</div>
+							</div>
+						</div>
+						<button type="button" class="bottom-header__button button button--orange">
+							<span>ADD COIN</span>
+							<span class="button--background"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="decor-circle"></div>
+			<div class="page__blog blog">
+				<div class="blog__container">
+					<div class="blog__header header-blog">
+						<h3 class="header-blog__title">Blog Articles</h3>
+						<div class="bottom-header__search search-bottom-header search-header">
+							<input type="text" class="search-bottom-header__input input search-input" autocomplete="off" placeholder="Search" />
+							<div class="search-bottom-header__list search-list">
+								<ul class="search-scroll search-bottom-header__scroll">
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/humo.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Humo
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#1234
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/CHUNKY-CAT.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin CHUNKY CAT
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#1543
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/emptiness-community.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Emptiness community
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#5467
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/ice-rat.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin Ice Rat
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#24754
+											</div>
+										</a>
+									</li>
+									<li class="search-bottom-header__item search-item">
+										<a href="#" class="search-bottom-header__link">
+											<div class="search-bottom-header__image">
+												<img src="img/main/main/BRAIN-KRANG.webp" class="search-bottom-header__picture" alt="Image">
+											</div>
+											<div class="search-bottom-header__text body-text-b2">
+												Coin BRAIN KRANG
+											</div>
+											<div class="search-bottom-header__code body-text-b2">
+												#3457
+											</div>
+										</a>
+									</li>
+								</ul>
+								<div class="search-bottom-header__no-results body-text-b2 search-no-results">
+									No results found
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="blog__body body-blog">
+						<li class="body-blog__item">
+							<button class="body-blog__button button _active-blog">All topics</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Platform Updates</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Crypto Basics</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Bitcoin</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Useful lists</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Crypto Market Analysis</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Casino</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Meme coins</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Solana</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Presales</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">Base</button>
+						</li>
+						<li class="body-blog__item">
+							<button class="body-blog__button button">BlockDAG</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page__recommended recommended">
+				<div class="recommended__container">
+					<div class="recommended__header header-recommended">
+						<h3 class="header-recommended__title">Recommended</h3>
+						<a href="#" class="header-recommended__link">
+							<span>See more</span>
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L6 6L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="recommended__body body-recommended">
+						<div class="body-recommended__slider slider-body-recommended swiper">
+							<div class="body-recommended__wrapper swiper-wrapper">
+								<a href="#" class="body-recommended__slide slide-body-recommended swiper-slide">
+									<div class="slide-body-recommended__image">
+										<img src="img/blog/recommended/01.webp" class="slide-body-recommended__picture" alt="Image">
+									</div>
+									<div class="slide-body-recommended__block">
+										<h4 class="slide-body-recommended__title">
+											Reuters – “Chinese Bitcoin ETFs as early as next week”
+										</h4>
+									</div>
+								</a>
+								<a href="#" class="body-recommended__slide slide-body-recommended swiper-slide">
+									<div class="slide-body-recommended__image">
+										<img src="img/blog/recommended/01.webp" class="slide-body-recommended__picture" alt="Image">
+									</div>
+									<div class="slide-body-recommended__block">
+										<h4 class="slide-body-recommended__title">
+											Reuters – “Chinese Bitcoin ETFs as early as next week”
+										</h4>
+									</div>
+								</a>
+								<a href="#" class="body-recommended__slide slide-body-recommended swiper-slide">
+									<div class="slide-body-recommended__image">
+										<img src="img/blog/recommended/01.webp" class="slide-body-recommended__picture" alt="Image">
+									</div>
+									<div class="slide-body-recommended__block">
+										<h4 class="slide-body-recommended__title">
+											Reuters – “Chinese Bitcoin ETFs as early as next week”
+										</h4>
+									</div>
+								</a>
+							</div>
+							<div class="slider-body-recommended__actions">
+								<div class="slider-body-recommended-prev swiper-button-prev">
+									<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M25 32.5L12.5 20L25 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="slider-body-recommended-next swiper-button-next">
+									<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M15 7.5L27.5 20L15 32.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="body-recommended__article article-body-recommended">
+							<article class="article-body-recommended__item">
+								<h4 class="article-body-recommended__title">
+									<a href="#" class="article-body-recommended__title--link">
+										How XRP Could Hit $10,000: Expert Forecasts Post Ripple-SEC Trial Surge
+									</a>
+								</h4>
+								<div class="article-body-recommended__bottom">
+									<div class="article-body-recommended__source">
+										<img src="img/blog/latest/avatar.webp" class="article-body-recommended__avatar" alt="Image">
+										<div class="article-body-recommended__name body-text-b1">Anonymous</div>
+									</div>
+									<a href="#" class="article-body-recommended__link body-text-b1">All Topics</a>
+								</div>
+							</article>
+							<article class="article-body-recommended__item">
+								<h4 class="article-body-recommended__title">
+									<a href="#" class="article-body-recommended__title--link">
+										How XRP Could Hit $10,000: Expert Forecasts Post Ripple-SEC Trial Surge
+									</a>
+								</h4>
+								<div class="article-body-recommended__bottom">
+									<div class="article-body-recommended__source">
+										<img src="img/blog/latest/avatar.webp" class="article-body-recommended__avatar" alt="Image">
+										<div class="article-body-recommended__name body-text-b1">Anonymous</div>
+									</div>
+									<a href="#" class="article-body-recommended__link body-text-b1">All Topics</a>
+								</div>
+							</article>
+							<article class="article-body-recommended__item">
+								<h4 class="article-body-recommended__title">
+									<a href="#" class="article-body-recommended__title--link">
+										How XRP Could Hit $10,000: Expert Forecasts Post Ripple-SEC Trial Surge
+									</a>
+								</h4>
+								<div class="article-body-recommended__bottom">
+									<div class="article-body-recommended__source">
+										<img src="img/blog/latest/avatar.webp" class="article-body-recommended__avatar" alt="Image">
+										<div class="article-body-recommended__name body-text-b1">Anonymous</div>
+									</div>
+									<a href="#" class="article-body-recommended__link body-text-b1">All Topics</a>
+								</div>
+							</article>
+							<article class="article-body-recommended__item">
+								<h4 class="article-body-recommended__title">
+									<a href="#" class="article-body-recommended__title--link">
+										How XRP Could Hit $10,000: Expert Forecasts Post Ripple-SEC Trial Surge
+									</a>
+								</h4>
+								<div class="article-body-recommended__bottom">
+									<div class="article-body-recommended__source">
+										<img src="img/blog/latest/avatar.webp" class="article-body-recommended__avatar" alt="Image">
+										<div class="article-body-recommended__name body-text-b1">Anonymous</div>
+									</div>
+									<a href="#" class="article-body-recommended__link body-text-b1">All Topics</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="page__latest latest">
+				<div class="latest__container">
+					<div class="latest__header header-latest">
+						<h3 class="header-latest__title">Latest</h3>
+						<a href="#" class="header-latest__link">
+							<span>See more</span>
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L6 6L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="latest__body body-latest">
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+						<article class="body-latest__item">
+							<a href="#" class="body-latest__image">
+								<img src="img/blog/latest/01.webp" class="body-latest__picture" alt="Image">
+							</a>
+							<div class="body-latest__content">
+								<h4 class="body-latest__title">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe innovative memecoin with its ecosystem related WEB3 | Fairlaunch on Launchpad TonRaffles
+									</a>
+								</h4>
+								<p class="body-latest__text">
+									<a href="#" class="body-latest__link">
+										SnoopyBabe combines in its ecosystem several Solana and Ton networks, two of the fastest and most promising blockchains.
+										The project initially launched its $SBABE token on the Solana blockchain. And it also launched a useful Web3 ecosystem
+										on
+										the Solana network, which is constantly being expanded and updated.
+									</a>
+								</p>
+								<div class="body-latest__source">
+									<img src="img/blog/latest/avatar.webp" class="body-latest__avatar" alt="Image">
+									<div class="body-latest__name">Anonymous</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<ul class="pagging__list">
+						<li class="pagging__item">
+							<a href="#" class="pagging__link _active-pagging">1</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">8</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">...</a>
+						</li>
+						<li class="pagging__item">
+							<a href="#" class="pagging__link">10</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top top-footer">
+				<div class="top-footer__container">
+					<a href="#" class="top-footer__logo">
+						<svg width="111" height="34" viewBox="0 0 111 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.21875 30V2.5H5.71875V25.3125H11.375V30H0.21875ZM12.8125 5.125V0.46875H18.4062V5.125H12.8125ZM12.8125 30V6.5625H18.4062V30H12.8125ZM21.1406 30V11.8594H20.125V7.59375H21.1406V6C21.1406 3.47917 22.401 2.21875 24.9219 2.21875C26.1094 2.21875 27.0677 2.36979 27.7969 2.67188V6.125C27.5365 6.07292 27.3646 6.04688 27.2812 6.04688C26.9583 6.04688 26.7604 6.16667 26.6875 6.40625C26.6146 6.63542 26.5781 6.93229 26.5781 7.29688V7.59375H27.7969V11.9219H26.6875V30H21.1406ZM34.4062 30.25C32.8958 30.25 31.875 29.9323 31.3438 29.2969C30.8229 28.651 30.5625 27.6667 30.5625 26.3438V11.7344H28.9844V7.46875H30.5625V2.5H36V7.46875H37.5781V11.7344H36V25.0312C36 25.4167 36.0625 25.6875 36.1875 25.8438C36.3125 26 36.5521 26.0781 36.9062 26.0781C37.1562 26.0781 37.3802 26.0573 37.5781 26.0156V29.8281C37.4531 29.8698 37.0625 29.9479 36.4062 30.0625C35.75 30.1875 35.0833 30.25 34.4062 30.25ZM41.8281 30V7.78125H38.5625V2.5H50.5938V7.78125H47.3281V30H41.8281ZM58.125 30.25C53.4583 30.25 51.125 27.8281 51.125 22.9844V13.5781C51.125 11.3698 51.7448 9.60938 52.9844 8.29688C54.224 6.97396 55.9375 6.3125 58.125 6.3125C60.3229 6.3125 62.0417 6.97396 63.2812 8.29688C64.5208 9.60938 65.1406 11.3698 65.1406 13.5781V22.9844C65.1406 27.8281 62.8021 30.25 58.125 30.25ZM58.125 25.9375C58.5938 25.9375 58.9271 25.7708 59.125 25.4375C59.3333 25.0938 59.4375 24.6615 59.4375 24.1406V12.6875C59.4375 11.3229 59 10.6406 58.125 10.6406C57.25 10.6406 56.8125 11.3229 56.8125 12.6875V24.1406C56.8125 24.6615 56.9115 25.0938 57.1094 25.4375C57.3177 25.7708 57.6562 25.9375 58.125 25.9375ZM73.8438 30.25C71.3333 30.25 69.5208 29.625 68.4062 28.375C67.3021 27.125 66.75 25.1354 66.75 22.4062V19.7188H72.1875V23.1562C72.1875 23.7917 72.2812 24.2917 72.4688 24.6562C72.6667 25.0104 73.0052 25.1875 73.4844 25.1875C73.9844 25.1875 74.3281 25.0417 74.5156 24.75C74.7135 24.4583 74.8125 23.9792 74.8125 23.3125C74.8125 22.4688 74.7292 21.7656 74.5625 21.2031C74.3958 20.6302 74.1042 20.0885 73.6875 19.5781C73.2812 19.0573 72.7135 18.4531 71.9844 17.7656L69.5156 15.4219C67.6719 13.6823 66.75 11.6927 66.75 9.45312C66.75 7.10938 67.2917 5.32292 68.375 4.09375C69.4688 2.86458 71.0469 2.25 73.1094 2.25C75.6302 2.25 77.4167 2.92188 78.4688 4.26562C79.5312 5.60938 80.0625 7.65104 80.0625 10.3906H74.4688V8.5C74.4688 8.125 74.3594 7.83333 74.1406 7.625C73.9323 7.41667 73.6458 7.3125 73.2812 7.3125C72.8438 7.3125 72.5208 7.4375 72.3125 7.6875C72.1146 7.92708 72.0156 8.23958 72.0156 8.625C72.0156 9.01042 72.1198 9.42708 72.3281 9.875C72.5365 10.3229 72.9479 10.8385 73.5625 11.4219L76.7344 14.4688C77.3698 15.0729 77.9531 15.7135 78.4844 16.3906C79.0156 17.0573 79.4427 17.8385 79.7656 18.7344C80.0885 19.6198 80.25 20.7031 80.25 21.9844C80.25 24.5677 79.7708 26.5938 78.8125 28.0625C77.8646 29.5208 76.2083 30.25 73.8438 30.25ZM82 30V2.5H87.5312V14.6406L90.2188 6.5625H96.0156L92.5 16.75L96.9688 30H91.0156L87.5312 18.9531V30H82ZM97.2656 33.9062V30.3594H99.9531C100.359 30.3594 100.562 30.2188 100.562 29.9375C100.562 29.7917 100.547 29.6406 100.516 29.4844L96.8438 6.5625H102.203L103.766 23.8125L105.609 6.5625H111L106.656 31.2188C106.5 32.1042 106.198 32.7708 105.75 33.2188C105.312 33.6771 104.589 33.9062 103.578 33.9062H97.2656Z" fill="currentColor" />
+						</svg>
+					</a>
+					<ul class="top-footer__list">
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Coins</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Airdrop</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Blog</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Presales</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Contact Us</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Services</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Advertise</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">Daily top</a></div>
+						<div class="top-footer__item"><a href="#" class="top-footer__link">New Listings</a></div>
+					</ul>
+					<button id="scroll-up" type="button" class="top-footer__button button button--orange">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M3.75 12.5L10 6.25L16.25 12.5" stroke="#01001A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+						<span class="button--background"></span>
+					</button>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__body">
+						<ul class="bottom-footer__list">
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/telegram-footer.svg" alt="Image">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/twitter-footer.svg" alt="Image">
+								</a>
+							</li>
+						</ul>
+						<a href="https://www.dmca.com/" class="bottom-footer__image">
+							<img src="img/footer/dmca.webp" class="bottom-footer__picture" alt="Image">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy copy-footer">
+				<div class="copy-footer__container">
+					<div class="copy-footer__text">© 2025 LiftToSky.net</div>
+					<ul class="copy-footer__list">
+						<li class="copy-footer__item"><a href="#" class="copy-footer__link">Cookie Statement</a></li>
+						<li class="copy-footer__item"><a href="#" class="copy-footer__link">Terms & Conditions</a></li>
+						<li class="copy-footer__item"><a href="#" class="copy-footer__link">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+						</svg>
+					</button>
+					<div class="popup__text">
+						Popup content
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup-login" aria-hidden="true" class="popup__login login-popup popup">
+			<div class="login-popup__wrapper popup__wrapper">
+				<div class="login-popup__content popup__content">
+					<button data-close type="button" class="login-popup__close popup__close">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+							</path>
+						</svg>
+					</button>
+					<div class="login-popup__title">Login</div>
+					<div class="login-popup__body">
+						<form class="login-popup__form form-login-popup">
+							<div class="form-login-popup__item">
+								<label for="popup-login-email" class="form-login-popup__label body-text-b1 body-text-b1--bold">Email</label>
+								<input id="popup-login-email" autocomplete="off" type="email" data-error="Помилка" placeholder="Enter your email address" class="form-login-popup__input input body-text-b2" required>
+							</div>
+							<div class="form-login-popup__item">
+								<label for="popup-login-password" class="form-login-popup__label body-text-b1 body-text-b1--bold">Password</label>
+								<div class="form-login-popup__password">
+									<input id="popup-login-password" autocomplete="off" type="password" data-error="Помилка" placeholder="Enter your password" class="form-login-popup__input form-login-popup__input--password input body-text-b2" required>
+									<button type="button" class="form-login-popup__viewpass button__viewpass"></button>
+								</div>
+								<a href="#" class="form-login-popup__link body-text-b2">Forgot password?</a>
+							</div>
+							<button type="submit" class="form-login-popup__button button button--orange body-text-b2 body-text-b2--bold">
+								<span>Login</span>
+								<span class="button--background"></span>
+							</button>
+						</form>
+						<div class="login-popup__line body-text-b3">Or</div>
+						<div class="login-popup__actions">
+							<button type="button" class="login-popup__button button">
+								<img src="img/icons/google.svg" class="login-popup__image" alt="Image">
+								<span class="body-text-b2 body-text-b2--bold">Continue with Google</span>
+							</button>
+							<button type="button" class="login-popup__button button">
+								<img src="img/icons/facebook.svg" class="login-popup__image" alt="Image">
+								<span class="body-text-b2 body-text-b2--bold">Continue with Facebook</span>
+							</button>
+						</div>
+					</div>
+					<div class="login-popup__text body-text-b1">
+						<span>Don't have an account?</span>
+						<a href="#" data-popup="#popup-sign-up" class="login-popup__link">Sign up</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup-sign-up" aria-hidden="true" class="popup__login login-popup popup">
+			<div class="login-popup__wrapper popup__wrapper">
+				<div class="login-popup__content popup__content">
+					<button data-close type="button" class="login-popup__close popup__close">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+							</path>
+						</svg>
+					</button>
+					<div class="login-popup__title">Sign Up</div>
+					<div class="login-popup__body">
+						<form class="login-popup__form form-login-popup">
+							<div class="form-login-popup__item">
+								<label for="popup-login-email" class="form-login-popup__label body-text-b1 body-text-b1--bold">Email</label>
+								<input id="popup-login-email" autocomplete="off" type="email" data-error="Помилка" placeholder="Enter your email address" class="form-login-popup__input input body-text-b2" required>
+							</div>
+							<div class="form-login-popup__item">
+								<label for="popup-login-password" class="form-login-popup__label body-text-b1 body-text-b1--bold">Password</label>
+								<div class="form-login-popup__password">
+									<input id="popup-login-password" autocomplete="off" type="password" data-error="Помилка" placeholder="Enter your password" class="form-login-popup__input form-login-popup__input--password input body-text-b2" required>
+									<button type="button" class="form-login-popup__viewpass button__viewpass"></button>
+								</div>
+							</div>
+							<div class="form-login-popup__item">
+								<label for="popup-login-password" class="form-login-popup__label body-text-b1 body-text-b1--bold">Confirm Password</label>
+								<div class="form-login-popup__password">
+									<input id="popup-login-password" autocomplete="off" type="password" data-error="Помилка" placeholder="Enter your password" class="form-login-popup__input form-login-popup__input--password input body-text-b2" required>
+									<button type="button" class="form-login-popup__viewpass button__viewpass"></button>
+								</div>
+								<div class="form-login-popup__text body-text-b1">
+									By clicking the button below, you agree to our <a href="#" class="form-login-popup__text--link">Terms of Service</a> and <a href="#" class="form-login-popup__text--link">Privacy Policy</a>.
+								</div>
+							</div>
+							<button type="submit" class="form-login-popup__button button button--orange body-text-b2 body-text-b2--bold">
+								<span>Create Account</span>
+								<span class="button--background"></span>
+							</button>
+						</form>
+						<div class="login-popup__line body-text-b3">Or</div>
+						<div class="login-popup__actions">
+							<button type="button" class="login-popup__button button">
+								<img src="img/icons/google.svg" class="login-popup__image" alt="Image">
+								<span class="body-text-b2 body-text-b2--bold">Continue with Google</span>
+							</button>
+							<button type="button" class="login-popup__button button">
+								<img src="img/icons/facebook.svg" class="login-popup__image" alt="Image">
+								<span class="body-text-b2 body-text-b2--bold">Continue with Facebook</span>
+							</button>
+						</div>
+					</div>
+					<div class="login-popup__text body-text-b1">
+						<span>Already have an account?</span>
+						<a href="#" data-popup="#popup-login" class="login-popup__link">Log in</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250105152308"></script>
+	</body>
+
+</html>
